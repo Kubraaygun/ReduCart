@@ -1,9 +1,26 @@
-# React + Vite
+<h1> ReduCart</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje useReducer hook'unu kullanarak alışveriş sepeti özelliğini yönetmeyi göstermektedir.
 
-Currently, two official plugins are available:
+<h2> Proje Yapısı </h2>
+<h3>Components<h3>
+Uygulamanın bileşenlerini içeren klasördür.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# ReduCart
+<ul>
+<li>
+<b>ProductList.js: <b> Ürünleri listeleyen ve sepete ekleyen bileşen.
+</li>
+<li><b>ShoppingCart.js: <b>Sepeti gösteren ve ürünleri çıkaran bileşen.</li>
+
+</ul>
+
+<h3>Reducers<h3> 
+useReducer hook'u ile kullanılan özel reducer'ı içeren klasör.
+<ul>
+<li><b>cartReducers.js:<b> Alışveriş sepeti state'ini yöneten reducer.<li>
+<ul>
+
+
+<h2>Ekran Görüntüsü</h2>
+
+![](./src/reducart.gif)
