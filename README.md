@@ -7,18 +7,18 @@ Bu proje useReducer hook'unu kullanarak alışveriş sepeti özelliğini yönetm
 <ul>
 <li>Components: Uygulamanın bileşenlerini içeren klasördür.
 <ul>
-<li>ProductList.js: Ürünleri listeleyen ve sepete ekleyen bileşen.<li>
-<li>ShoppingCart.js: Sepeti gösteren ve ürünleri çıkaran bileşen.<li>
-<ul>
-<li>
+<li>ProductList.js: Ürünleri listeleyen ve sepete ekleyen bileşen.</li>
+<li>ShoppingCart.js: Sepeti gösteren ve ürünleri çıkaran bileşen.</li>
+</ul>
+</li>
 
 <li>Reducers: useReducer hook'u ile kullanılan özel reducer'ı içeren klasör.
 <ul>
-<li>cartReducers.js:  Alışveriş sepeti state'ini yöneten reducer.<li>
-<ul>
-<li>
+<li>cartReducers.js:  Alışveriş sepeti state'ini yöneten reducer.</li>
+</ul>
+</li>
 
-<ul>
+</ul>
 
 <h2>Ekran Görüntüsü</h2>
 
